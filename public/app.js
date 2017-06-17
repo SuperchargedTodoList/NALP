@@ -1,18 +1,18 @@
 (function() {
-  angular.module( 'myApp', ['ui.router'])
+  angular.module( 'NAME_ME', ['ui.router'])
     .config(function($stateProvider, $urlRouterProvider){
       $urlRouterProvider.otherwise('/')
 
       $stateProvider
-        .state(/*name of state*/'welcome', /*templateUrl and controller*/ {
+        .state(/*name of state*/'', /*templateUrl and controller*/ {
           url: '/',
-          templateUrl: 'partials/welcome.html',
-          controller: 'WelcomeCtrl as welcome_ctrl'
+          templateUrl: 'INSERT_HERE.html',
+          controller: 'INSERT_CTRL'
         })
-        .state('profile', {
-          url: '/profile',
-          templateUrl: 'partials/profile.html',
-          controller: 'WelcomeCtrl as welcome_ctrl'
+        .state('', {
+          url: '/',
+          templateUrl: 'INSERT_HERE.html',
+          controller: 'INSERT_CTRL'
         })
     })
 })()
