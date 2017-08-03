@@ -23,7 +23,6 @@ build/
 dist/
 
 # Dependency directorys
-node_modules/
 .env
 bower_components/
 public/node_modules/
